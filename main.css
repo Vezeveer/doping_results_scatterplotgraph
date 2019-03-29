@@ -1,0 +1,39 @@
+.dot-text{
+  display: none;
+}
+
+#title{
+  text-align: center;
+}
+
+#tooltip{
+  width: 115px;
+  background: rgba(0, 0, 255, 0.61);
+  position: absolute;
+  z-index: 10;
+  border-radius: 5px;
+  display: none;
+  color: white;
+  font-size: 12px;
+}
+#legend{
+  background: rgba(0, 0, 255, 0.15);
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  font-size: 12px;
+}
+
+.svg-container{
+  width: 750px;
+  height: 650px;
+  position: relative;
+}
+
+.legendSvg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
